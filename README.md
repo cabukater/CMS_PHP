@@ -16,5 +16,6 @@
 inclusão de ccomnteudo via form...redirecionamento inteligente
     novo visual
     
+Fiz esse projeto para entender como funciona o PHP e assim conseguir fazer sites de forma mais rapida e pratica
 
 
