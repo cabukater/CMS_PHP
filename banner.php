@@ -1,15 +1,63 @@
-<div class="py-5 gradient-overlay" style="background-image: url(&quot;https://pingendo.github.io/templates/sections/assets/cover_event.jpg&quot;);">
-<div class="container py-5">
-  <div class="row">
-    <div class="col-md-3 text-white">
-      <img class="img-fluid d-block mx-auto mb-5" src="https://pingendo.github.io/templates/sections/assets/footer_logo2.png"> </div>
-    <div class="col-md-9 text-white align-self-center">
-      <h1 class="display-3 mb-4">Image and gradient intro</h1>
-      <p class="lead mb-5">Get a fluid web page working on all devices with the Bootstrap 4 grid system.&nbsp;
-        <br> </p>
-      <a href="#" class="btn btn-lg mx-1 btn-secondary">A claim here</a>
-      <a href="#" class="btn btn-lg btn-primary mx-1">Your call to action</a>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+
+<div id="first-slider">
+    <div id="carousel-example-generic" class="carousel slide carousel-fade">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <!-- Item 1 -->
+            <div class="item active slide1">
+                <div class="row"><div class="container">
+                    <div class="col-md-3 text-right">
+                        <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="img/banner/forn.png">
+                    </div>
+                    <div class="col-md-9 text-left">
+                        <h3 data-animation="animated bounceInDown">Trabalhamos com os melhores</h3>
+                        <h4 data-animation="animated bounceInUp"> fornecedores</h4>             
+                     </div>
+                </div></div>
+             </div> 
+            <!-- Item 2 -->
+            <div class="item slide2">
+                <div class="row"><div class="container">
+                    <div class="col-md-7 text-left">
+                        <h3 data-animation="animated bounceInDown"> Impermeabilização de lajes, piscinas, reservatórios,</h3>
+                        <h4 data-animation="animated bounceInUp">estações de tratamento, predial e residencial. </h4>
+                     </div>
+                    <div class="col-md-5 text-right">
+                       <!-- <img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/sp11uneml/rack_server_unlock.png">-->
+                    </div>
+                </div></div>
+            </div>
+            <!-- Item 3 -->
+            <div class="item slide3">
+                <div class="row"><div class="container">
+                    <div class="col-md-7 text-left">
+                        <h3 data-animation="animated bounceInDown">Impermeabilização com Manta asfáltica,
+argamassa polimérica</h3>
+                        <h4 data-animation="animated bounceInUp">resina termoplástica e manta
+líquida.</h4>
+                     </div>
+                    <div class="col-md-5 text-right">
+                        <!--<img style="max-width: 200px;"  data-animation="animated zoomInLeft" src="http://s20.postimg.org/eq8xvxeq5/globe_network.png">-->
+                    </div>     
+                </div></div>
+            </div>
+            <!-- Item 4 -->
+           
+            <!-- End Item 4 -->
+    
+        </div>
+        <!-- End Wrapper for slides-->
+    
     </div>
-  </div>
 </div>
-</div>
+
+
